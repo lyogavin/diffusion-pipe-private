@@ -33,7 +33,7 @@ video_clip_mode = 'single_beginning'
 blocks_to_swap = 32
 
 # Only upload to Hugging Face starting from this epoch (optional, defaults to 0)
-upload_hf_from_epoch = 30
+upload_hf_from_epoch = 6
 
 # Your existing HF repo setting
 huggingface_repo = 'lyogavin/godmodeai_wan_isometric_weapon_wielding'
