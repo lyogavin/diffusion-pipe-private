@@ -40,7 +40,7 @@ huggingface_repo = 'lyogavin/godmodeai_wan_isometric_weapon_wielding_v2'
 
 [model]
 type = 'wan'
-ckpt_path = '/root/imagegen_models/Wan2.1-T2V-14B'
+ckpt_path = '/root/imagegen_models/Wan2.1-I2V-14B-480P'
 dtype = 'bfloat16'
 transformer_dtype = 'float8'
 timestep_sample_method = 'logit_normal'
