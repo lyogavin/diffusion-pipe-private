@@ -36,7 +36,7 @@ blocks_to_swap = 32
 upload_hf_from_epoch = 25
 
 # Your existing HF repo setting
-huggingface_repo = 'lyogavin/godmodeai_wan_game_ui_states_button_vfx'
+huggingface_repo = 'lyogavin/godmodeai_wan_game_ui_states_button_vfx_v1'
 
 [model]
 type = 'wan'
