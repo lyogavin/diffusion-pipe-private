@@ -63,5 +63,5 @@ stabilize = false
 enable_wandb = true
 wandb_api_key = ''
 wandb_tracker_name = 'godmodai_wan'
-wandb_run_name = 'godmodeai_wan_isometric_sword-and-shield-slash-v3
+wandb_run_name = 'godmodeai_wan_isometric_sword-and-shield-slash-v3'
 
