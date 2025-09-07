@@ -16,7 +16,7 @@ resolutions = [[772, 450]]
 
 # Enable aspect ratio bucketing. For the different AR buckets, the final size will be such that
 # the areas match the resolutions you configured above.
-enable_ar_bucket = false
+enable_ar_bucket = true
 
 # The aspect ratio and frame bucket settings may be specified for each [[directory]] entry as well.
 # Directory-level settings will override top-level settings.
