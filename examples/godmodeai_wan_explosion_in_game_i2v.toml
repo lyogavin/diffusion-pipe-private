@@ -2,7 +2,7 @@
 
 # change this
 #output_dir = '/data/diffusion_pipe_training_runs/tmp'
-output_dir = '/root/data/diffusion_pipe_training_runs/wan_video'
+output_dir = '/home/ubuntu/data/diffusion_pipe_training_runs/wan_video'
 # and this
 #dataset = '/home/anon/code/diffusion-pipe-configs/datasets/wan/video.toml'
 dataset = 'examples/godmodai_dataset_explosion_in_game_i2v.toml'
@@ -40,7 +40,7 @@ huggingface_repo = 'lyogavin/godmodeai_wan_explosion_in_game_i2v'
 
 [model]
 type = 'wan'
-ckpt_path = '/root/imagegen_models/Wan2.1-I2V-14B-480P'
+ckpt_path = '/home/ubuntu/imagegen_models/Wan2.1-I2V-14B-480P'
 dtype = 'bfloat16'
 transformer_dtype = 'float8'
 timestep_sample_method = 'logit_normal'
