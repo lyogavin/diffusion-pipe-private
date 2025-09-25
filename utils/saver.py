@@ -96,6 +96,12 @@ class Saver:
                             print(f"Uploading adapter '{name}' to Hugging Face repo: {self.config['huggingface_repo']}")
                         
                         api = HfApi()
+                        api.create_repo(
+                            repo_id=self.config['huggingface_repo'],
+                            private=True,
+                            exist_ok=True,
+                            repo_type="model"
+                        )
                         api.upload_folder(
                             folder_path=str(save_dir),
                             repo_id=self.config['huggingface_repo'],
